@@ -12,12 +12,12 @@
     },
     "redis": {
         "cache": {
-            "host": "10.6.6.1",
+            "host": "10.6.7.1",
             "password": "insecure-redis-kobo-dev",
             "port": "60667"
         },
         "main": {
-            "host": "10.6.6.1",
+            "host": "10.6.7.1",
             "password": "insecure-redis-kobo-dev",
             "port": "60667"
         }
