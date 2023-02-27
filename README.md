@@ -32,7 +32,7 @@ minimum of mandatory customization. If this sounds like a topsy-turvy
        your `enketo-express` clone
     1. `cd` into your `enketo-express` source directory
     1. `nvm use 16`, or whatever you cool kids like
-    1. important: `npm install -g npm@6`. [(why?)](https://github.com/enketo/enketo-express/issues/240)
+    1. important: `npm install -g npm@6` [(why?)](https://github.com/enketo/enketo-express/issues/240)
     1. `npm install`
         * don't be surprised if "extract:rxjs" appears to be stuck for *seven*
           or more minutes
@@ -50,9 +50,9 @@ minimum of mandatory customization. If this sounds like a topsy-turvy
     1. watch for Enketo to automatically reload with your changes
 
 ## hints
-1. django is set to use the console email backend, so you can do things like
-   create user accounts and read the activation email details right from the
-   logs of the kpi container, i.e. `docker-compose logs -f kpi`.
+* django is set to use the console email backend, so you can do things like
+  create user accounts and read the activation email details right from the
+  logs of the kpi container, i.e. `docker-compose logs -f kpi`
 
 ## nasties
 * some things just don't work without nginx (like serving attachments? need to
