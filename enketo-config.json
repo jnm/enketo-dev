@@ -21,5 +21,6 @@
             "password": "insecure-redis-kobo-dev",
             "port": "60667"
         }
-    }
+    },
+    "max processes": 2
 }
